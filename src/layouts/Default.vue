@@ -15,12 +15,9 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright"
-        >Copyright © {{ new Date().getFullYear() }} Luiz Eduardo de Oliveira Fonseca.
-      </span>
-      <span class="footer__links"
-        >Powered by <a href="//gridsome.org"> Gridsome </a></span
-      >
+      <p class="footer__copyright">Copyright &copy; {{ new Date().getFullYear() }} Luiz Eduardo de Oliveira Fonseca.</p>
+      <p class="footer__links">Powered by <a href="//gridsome.org"> Gridsome.</a></p>
+      <p class="footer__source">Source Code <a href="https://github.com/luizeof/www-luizeof-dev">available at Github</a>.</p>
     </footer>
   </div>
 </template>
@@ -68,7 +65,6 @@ export default {
 }
 
 .footer {
-  display: flex;
   align-items: center;
   justify-content: center;
   padding: calc(var(--space) / 2);
