@@ -24,9 +24,9 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
   </head>
   <body ${bodyAttrs}>
+
     <script>
       (function() {
         window.__onThemeChange = function() {};
@@ -59,24 +59,6 @@
     </script>
 
     ${app} ${scripts}
-
-    <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-analytics.js"></script>
-
-    <script>
-      var firebaseConfig = {
-        apiKey: "AIzaSyBTgkdDoOGInOkqd8i2jPtv30OPdrAWouo",
-        authDomain: "luizeof-dev.firebaseapp.com",
-        projectId: "www-luizeof-dev",
-        storageBucket: "www-luizeof-dev.appspot.com",
-        messagingSenderId: "938125096652",
-        appId: "1:938125096652:web:e10e99f84cf1469d007469",
-        measurementId: "G-5QE06K3X9T"
-      };
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-    </script>
 
   </body>
 </html>

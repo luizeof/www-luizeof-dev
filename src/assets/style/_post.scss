@@ -1,3 +1,7 @@
+header.post-title {
+  margin-bottom: 2em;
+}
+
 header.post-title h1 {
   padding-left: 2em;
   padding-right: 2em;
@@ -13,4 +17,9 @@ article.post {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .main{
+    padding: 0 0 0 0 !important;
+  }
+
 }
