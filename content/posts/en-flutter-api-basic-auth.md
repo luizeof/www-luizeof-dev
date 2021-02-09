@@ -1,7 +1,7 @@
 ---
 author: luizeof
 category: Flutter
-cover_image: ./images/category/flutter.png
+cover: ./images/category/flutter.png
 date: 2020-01-05
 description: How to Implementing and Access API with Basic Authentication in Flutter
 lang: en

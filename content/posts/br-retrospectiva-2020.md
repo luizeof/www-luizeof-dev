@@ -1,7 +1,7 @@
 ---
 author: luizeof
 category: Artigos
-cover_image: ./images/2020.jpg
+cover: ./images/2020.jpg
 date: 2020-12-31
 description: Uma visão geral de como foi o ano de 2020.
 lang: pt-br
