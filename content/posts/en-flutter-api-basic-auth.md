@@ -43,7 +43,7 @@ In the context of an HTTP transaction, Basic Authentication is a method for an H
 
 `Base64Encoder` output is sent with the `Authorization: Basic` header:
 
-```
+```plain
 Authorization: Basic QWxhZGRpbjpPcGVuU2VzYW1l
 ```
 

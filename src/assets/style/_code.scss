@@ -9,14 +9,13 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
 pre {
   padding: calc(var(--space) / 2);
   font-size: 0.85em;
-  background-color: var(--bg-code);
+  background-color: var(--code-bg-color);
+  color: var(--code-text-color);
   margin-bottom: 2em;
-  border: solid 1px #000;
 }
 
 code {
-  font-size: 0.85em;
-  padding: 0.2em 0.5em;
+  font-size: 0.95em;
 }
 
 code[class*="language-"],

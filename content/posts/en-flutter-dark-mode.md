@@ -21,9 +21,9 @@ It purposely uses widgets for DI / state management instead of Dart classes like
 
 By using state management widgets, the provider can ensure:
 
--   Maintenance, through a unidirectional data flow;
--   Testability / composition, as it is always possible to mock / override a value;
--   Robustness as it is harder to forget to deal with the upgrade scenario of a model or widget.
+- Maintenance, through a unidirectional data flow;
+- Testability / composition, as it is always possible to mock / override a value;
+- Robustness as it is harder to forget to deal with the upgrade scenario of a model or widget.
 
 To read more about the provider, see the [documentation](https://pub.dev/packages/provider).
 

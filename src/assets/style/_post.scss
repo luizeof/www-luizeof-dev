@@ -1,0 +1,16 @@
+header.post-title h1 {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+article.post {
+  line-height: 1.45;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 650px) {
+  header.post-title h1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

@@ -5,6 +5,8 @@ html {
 
 // Light default theme
 body {
+  --code-bg-color: #0D2538;
+  --code-text-color: #FFF;
   --bg-color: #f3f7f9;
   --bg-content-color: #fff;
   --bg-code: #fffbf3;
@@ -31,6 +33,8 @@ body {
 
 // Override variables for Dark theme
 body[data-theme="dark"] {
+  --code-bg-color: #0D2538;
+  --code-text-color: #FFF;
   --bg-color: #0d2538;
   --bg-content-color: #0f2d44;
   --bg-code: rgba(0, 0, 0, 0.3);
