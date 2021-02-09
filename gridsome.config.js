@@ -29,6 +29,22 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        exclude: [],
+        config: {
+          '/pt-br/*': {
+            changefreq: 'weekly',
+            priority: 0.5,
+          },
+          '/en/*': {
+            changefreq: 'weekly',
+            priority: 0.5,
+          },
+        }
+      }
     }
   ],
 
