@@ -29,6 +29,22 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        exclude: [],
+        config: {
+          '/pt-br/*': {
+            changefreq: 'weekly',
+            priority: 0.5,
+          },
+          '/en/*': {
+            changefreq: 'weekly',
+            priority: 0.5,
+          },
+        }
+      }
     }
   ],
 
@@ -36,7 +52,7 @@ module.exports = {
     //Add markdown support to all file-system sources
     remark: {
       externalLinksTarget: '_blank',
-      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      externalLinksRel: [],
       anchorClassName: 'icon icon-link',
       plugins: [
         '@gridsome/remark-prismjs'
