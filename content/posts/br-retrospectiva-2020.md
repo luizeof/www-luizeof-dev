@@ -69,7 +69,7 @@ Antes tarde do que nunca. Sempre gostei de usar Ruby on Rails e tenho uma resist
 
 O Laravel veio em boa hora, lá pra Agosto quando eu tive a necessidade de reescrever o painel da Powertic do Ruby on Rails para PHP.
 
-Assisti tudo do LaraCasts além de intermináveis vídeos no Youtube e consegui subir a versão beta do Painel da Powertic e o beta do EmailFirst. 
+Assisti tudo do LaraCasts além de intermináveis vídeos no Youtube e consegui subir a versão beta do Painel da Powertic e o beta do EmailFirst.
 
 Tenho muito trabalho em Laravel agora em Janeiro e Fevereiro e estou gostando muito de aprender esse framework fanstástico.
 
@@ -99,16 +99,15 @@ Fiquei muito feliz em participar desses encontros. Aproveite e cadastre-se em [h
 
 ## Atualizei meu Stack
 
-Aproveitei também para conhecer novas ferramentas e aprimorar ferramentas que conhecia "por cima". 
+Aproveitei também para conhecer novas ferramentas e aprimorar ferramentas que conhecia "por cima".
 
-#### Docker Swarm
+### Docker Swarm
 
 No começo do ano atualizamos o Docker da Powertic e de quebra migramos para Swarm. Agora nossos Mautics são prontos para escalar e já são pré-otimizados para cargas grandes de trabalho.
 
 Quando comecei com o Laravel, aproveitei também para aprender mais sobre como escalar uma aplicação Laravel usando Swarm e Traefik, e hoje nossa infra dos 2 sistemas rodam muito bem e aguentam uma carga enorme.
 
-
-#### Traefik 2+
+### Traefik 2+
 
 Estava usando o Traefik 1.7 e desde que saiu o Traefik 2.0 ficou pendente aprofundar nas mudanças (e mudou muito). Hoje os nossos novos Mautic e também o nosso sistema já roda com o Traefik 2 e são monitorados pelo Traefik Pilot.
 
@@ -122,7 +121,6 @@ Outro ponto foi que deixei de usar o Atom e migrei para o VSCode. Já que o Lara
 
 Vou escrever algumas dicas de extensões aqui no blog também.
 
-
 #### VSCode na Nuvem
 
 O ponto que mais gostei do VSCode é que rodo todo o meu ambiente de Dev e Staging na nuvem. Tenho o PHP instalado no meu notebook mas apenas para compilar o JamStack do JigSaw que eu uso aqui no Blog.
@@ -131,20 +129,17 @@ Todo o meu ambiente de dev roda na nuvem. É uma maravilha ter essa liberdade.
 
 Acredito que eu lance um curso no Udemy sobre como ter um ambiente de desenvolvimento Laravel na Nuvem usando uma VPS simples de $10.
 
-
 #### Tailwind CSS
 
 Uso o Bootstrap desde a versão 1 e com o Laravel 8 comecei a conhecer mais o Tailwind. Acredito que o Bootstrap tenha chegado ao final da linha para meu Stack.
 
 Apesar do Painel da Powertic ter sido feito em Bootstrap 5, as facilidades do Tailwind realmente colocam o Boostrap fora da minha lista.
 
-
 #### Livewire
 
 Pensei em aprender Vue umas 3 vezes nesse ano, mas depois que conheci o Livewire e consegui colocar ele no meu Workflow, posso dizer que nem penso mais em Vue ou qualquer outro "javascript".
 
 Livewire dá uma nova roupagem na interação com a web e realmente é um dos projetos que mais me chama a atenção no mundo Laravel.
-
 
 ## Comecei usar JAMStack com Jigsaw
 
@@ -154,14 +149,13 @@ Gostei muito de escrever em Markdown e hospedo este blog gratuitamente no Google
 
 Além de ter controle total sobre o código, consigo uma nota Excelente no GTMetrix e no PageSpeed Insights.
 
-
 ## Comecei um novo Painel para a Powertic
 
-No segundo semstre de 2020 comecei firme a migração do painel da Powertic do Ruby on Rails para o PHP em Laravel. 
+No segundo semstre de 2020 comecei firme a migração do painel da Powertic do Ruby on Rails para o PHP em Laravel.
 
-É um painel completo para gestão do Mautic tanto do nosso lado de suporte quanto para o Cliente. Acredito que em janeiro já possa liberar para uso dos clientes. 
+É um painel completo para gestão do Mautic tanto do nosso lado de suporte quanto para o Cliente. Acredito que em janeiro já possa liberar para uso dos clientes.
 
-## Começamos um novo sistema para E-mail 
+## Começamos um novo sistema para E-mail
 
 E nesse pocesso de desenvolvimento o Rodrigo Demetrio e eu tiramos do papel um novo sistema chamado EmailFirst, que vai ajudar muito quem trabalha com e-mail marketing e quer uma ferramenta que monitore e cuide dos pequenos detalhes.
 

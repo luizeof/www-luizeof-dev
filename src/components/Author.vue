@@ -14,7 +14,7 @@
     </h1>
 
     <p class="author__intro">
-      Laravel & Flutter Developer. Powertic Devops. Mautic Expert. Elementor Leader.
+      Laravel / Flutter Developer. Powertic Devops. Mautic Expert. Elementor Leader.
     </p>
 
     <p class="author__links">
