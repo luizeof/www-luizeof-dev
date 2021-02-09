@@ -1,7 +1,7 @@
 ---
 author: luizeof
 category: Flutter
-cover_image: ./images/category/flutter.png
+cover: ./images/category/flutter.png
 date: 2020-01-15
 description: Implementing dynamic Dark Mode on Flutter using `ThemeMode` and the plugin `provider`.
 lang: en

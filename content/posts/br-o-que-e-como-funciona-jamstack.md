@@ -1,7 +1,7 @@
 ---
 author: luizeof
 category: Jamstack
-cover_image: ./images/category/jamstack.png
+cover: ./images/category/jamstack.png
 date: 2020-12-30
 description: Jamstack é uma arquitetura projetada para tornar a web mais rápida, distribuída, segura e fácil de escalar.
 lang: pt-br
