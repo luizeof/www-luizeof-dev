@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+
     <header class="header">
       <div class="header__left">
         <Logo v-if="showLogo" />
@@ -19,6 +20,7 @@
       <p class="footer__links">Powered by <a href="//gridsome.org"> Gridsome.</a></p>
       <p class="footer__source">Source Code <a href="https://github.com/luizeof/www-luizeof-dev">available at Github</a>.</p>
     </footer>
+
   </div>
 </template>
 
