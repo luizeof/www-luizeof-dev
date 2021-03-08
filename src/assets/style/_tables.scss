@@ -1,0 +1,35 @@
+@use "~inter-ui/default" with (
+  $inter-font-display: swap,
+  $inter-font-path: '~inter-ui/Inter (web)'
+);
+@use "~inter-ui/variable" with (
+  $inter-font-display: swap,
+  $inter-font-path: '~inter-ui/Inter (web)'
+);
+
+table{
+  width: 100%;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: var(--body-color);
+}
+
+table td {
+  border: 1px solid var(--code-bg-color);
+  padding: 8px;
+}
+
+table th {
+  border: 1px solid rgb(3, 0, 12);
+  color: #FFF;
+  padding: 8px;
+}
+
+table tr:nth-child(odd) {
+  background-color: var(--tr-bg);
+  color: #FFF;
+}
