@@ -18,6 +18,7 @@ body {
   --content-width: 860px;
   --header-height: 80px;
   --radius: 5px;
+  --tr-bg: #0f2d44;
 }
 
 // Make  things smaller for mobile
@@ -42,4 +43,5 @@ body[data-theme="dark"] {
   --body-color: #ced8de;
   --title-color: #fff;
   --link-color: #63b2f3;
+  --tr-bg: #16354d;
 }
