@@ -1,7 +1,7 @@
 ---
 author: luizeof
 category: Linux
-cover: ./images/category/laravel.png
+cover: ./images/category/linux.png
 date: 2021-04-15
 description: Veja como Aumentar a quantidade de memória RAM no Linux.
 lang: pt-br
