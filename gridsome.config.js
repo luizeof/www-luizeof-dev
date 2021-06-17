@@ -31,6 +31,14 @@ module.exports = {
       }
     },
     {
+      use: 'gridsome-plugin-gtag',
+      options: {
+        config: {
+          id: 'G-5QE06K3X9T',
+        },
+      },
+    },
+    {
       use: '@gridsome/plugin-sitemap',
       options: {
         exclude: [],
