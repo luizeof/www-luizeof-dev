@@ -15,7 +15,7 @@ O pacote Laravel Excludable permite que você defina um subconjunto de registros
 
 Desse modo fica muito fácil criar por exemplo, posts privados, drafts, etc em um blog.
 
-> Acesse esta pacote no Github em [h-farm/laravel-excludable](https://github.com/h-farm/laravel-excludable).
+> Acesse este pacote no Github em [h-farm/laravel-excludable](https://github.com/h-farm/laravel-excludable).
 
 ## Instalando o Laravel Excludable
 
