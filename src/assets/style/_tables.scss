@@ -7,7 +7,7 @@
   $inter-font-path: '~inter-ui/Inter (web)'
 );
 
-table{
+table {
   width: 100%;
 }
 
@@ -25,11 +25,11 @@ table td {
 
 table th {
   border: 1px solid rgb(3, 0, 12);
-  color: #FFF;
+  color: #fff;
   padding: 8px;
 }
 
 table tr:nth-child(odd) {
   background-color: var(--tr-bg);
-  color: #FFF;
+  color: #fff;
 }
