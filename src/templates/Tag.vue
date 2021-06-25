@@ -41,15 +41,17 @@ export default {
     Author,
     PostCard
   },
-  metaInfo: {
-    title: "Tag",
-    meta: [
+  metaInfo() {
+    return {
+      title: "Tag",
+      meta: [
       {
         name: 'robots',
         content: 'noindex'
       }
-    ],
-  }
+      ],
+    };
+  },
 }
 </script>
 
